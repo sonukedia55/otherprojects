@@ -1,0 +1,35 @@
+{
+  "todos": [
+    {
+      "id": 111,
+      "user": 1,
+      "todo": "hey",
+      "status": 1
+    },
+    {
+      "id": 12,
+      "user": 1,
+      "todo": "hey 2",
+      "status": 0
+    },
+    {
+      "status": true,
+      "user": 1,
+      "todo": "adf",
+      "id": 1619712379582
+    },
+    {
+      "id": 1619712808074,
+      "todo": "dfsdf",
+      "status": 1,
+      "user": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "sonukedia",
+      "password": "sonukedia"
+    }
+  ]
+}

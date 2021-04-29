@@ -1,0 +1,118 @@
+* {
+  margin: 0; }
+
+.src-components-all__headerclass {
+  display: flex;
+  max-height: 90px;
+  background-color: #3f51b5;
+  justify-content: space-between;
+  color: white;
+  align-items: center; }
+  .src-components-all__headerclass .src-components-all__headersection {
+    padding: 20px 20px; }
+    .src-components-all__headerclass .src-components-all__headersection a {
+      cursor: pointer; }
+
+.src-components-all__page {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef; }
+  .src-components-all__page .src-components-all__todosection {
+    display: flex;
+    margin-top: 20px;
+    padding: 50px;
+    width: 50%;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column; }
+    .src-components-all__page .src-components-all__todosection h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #3f51b5; }
+    .src-components-all__page .src-components-all__todosection .src-components-all__todoGroup .src-components-all__todoelement {
+      font-family: arial;
+      margin: 2px;
+      padding: 20px;
+      border: solid 0.5px lightgrey;
+      box-shadow: 1px 1px 3px lightgrey;
+      background-color: white;
+      align-items: center;
+      display: flex; }
+      .src-components-all__page .src-components-all__todosection .src-components-all__todoGroup .src-components-all__todoelement input[type="text"] {
+        margin: 5px 0;
+        padding: 10px;
+        width: 80%;
+        border-radius: 3px;
+        border: solid 1px #b5b5b5; }
+      .src-components-all__page .src-components-all__todosection .src-components-all__todoGroup .src-components-all__todoelement input[type="checkbox"] {
+        padding: 5px;
+        width: 15px;
+        height: 15px;
+        margin-right: 10px; }
+      .src-components-all__page .src-components-all__todosection .src-components-all__todoGroup .src-components-all__todoelement button {
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 3px;
+        background: #3f51b5;
+        color: white;
+        width: 20%;
+        font-weight: bold;
+        cursor: pointer;
+        border: solid 1px #a3a3a3; }
+      .src-components-all__page .src-components-all__todosection .src-components-all__todoGroup .src-components-all__todoelement button:hover {
+        background-color: #142cb0; }
+    .src-components-all__page .src-components-all__todosection .src-components-all__todologin b {
+      color: #0059ff;
+      margin: 10px 0;
+      font-size: 13px;
+      display: block; }
+    .src-components-all__page .src-components-all__todosection .src-components-all__todologin input {
+      margin: 5px 0;
+      padding: 10px;
+      width: 100%;
+      border-radius: 3px;
+      border: solid 1px #b5b5b5; }
+    .src-components-all__page .src-components-all__todosection .src-components-all__todologin button {
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 3px;
+      background: #3f51b5;
+      color: white;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      border: solid 1px #a3a3a3; }
+    .src-components-all__page .src-components-all__todosection .src-components-all__todologin button:hover {
+      background-color: #142cb0; }
+
+.src-components-all__todoelement span {
+  font-size: 13px; }
+
+.src-components-all__addtodo {
+  width: 218px;
+  box-shadow: 1px 1px 3px lightblue;
+  padding: 1px;
+  background-color: #2ac409; }
+
+.src-components-all__addtodo input {
+  width: 170px; }
+
+.src-components-all__addtodo .src-components-all__fa-plus {
+  width: 20px;
+  height: fit-content;
+  vertical-align: middle;
+  color: white;
+  margin: auto 3px;
+  text-align: center; }
+
+.src-main__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 18px;
+  background: #efefef; }
+
+
+/*# sourceMappingURL=main.css.map*/

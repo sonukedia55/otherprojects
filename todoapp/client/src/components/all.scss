@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+}
+.headerclass {
+  display: flex;
+  max-height: 90px;
+  background-color: #3f51b5;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  .headersection {
+    padding: 20px 20px;
+    a{
+      cursor: pointer;
+    }
+  }
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+
+  .todosection {
+    display: flex;
+    margin-top: 20px;
+    padding: 50px;
+    width: 50%;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #3f51b5;
+    }
+    .todoGroup {
+      .todoelement {
+        font-family: arial;
+        margin: 2px;
+        padding: 20px;
+        border: solid 0.5px lightgrey;
+        box-shadow: 1px 1px 3px lightgrey;
+        background-color: white;
+        align-items: center;
+        display: flex;
+        input[type="text"] {
+          margin: 5px 0;
+          padding: 10px;
+          width: 80%;
+          border-radius: 3px;
+          border: solid 1px #b5b5b5;
+        }
+        input[type="checkbox"] {
+          padding: 5px;
+          width: 15px;
+          height: 15px;
+          margin-right: 10px;
+        }
+        button {
+          margin: 5px 0;
+          padding: 10px;
+          border-radius: 3px;
+          background: #3f51b5;
+          color: white;
+          width: 20%;
+          font-weight: bold;
+          cursor: pointer;
+          border: solid 1px #a3a3a3;
+        }
+        button:hover {
+          background-color: #142cb0;
+        }
+      }
+    }
+    .todologin {
+      b {
+        color: rgb(0, 89, 255);
+        margin: 10px 0;
+        font-size: 13px;
+        display: block;
+      }
+      input {
+        margin: 5px 0;
+        padding: 10px;
+        width: 100%;
+        border-radius: 3px;
+        border: solid 1px #b5b5b5;
+      }
+      button {
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 3px;
+        background: #3f51b5;
+        color: white;
+        width: 100%;
+        font-weight: bold;
+        cursor: pointer;
+        border: solid 1px #a3a3a3;
+      }
+      button:hover {
+        background-color: #142cb0;
+      }
+    }
+  }
+}
+
+.todoelement span {
+  font-size: 13px;
+}
+.addtodo {
+  width: 218px;
+  box-shadow: 1px 1px 3px lightblue;
+  padding: 1px;
+  background-color: #2ac409;
+}
+.addtodo input {
+  width: 170px;
+}
+.addtodo .fa-plus {
+  width: 20px;
+  height: fit-content;
+  vertical-align: middle;
+  color: white;
+  margin: auto 3px;
+  text-align: center;
+}
