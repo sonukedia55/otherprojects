@@ -11,7 +11,10 @@
   .src-components-all__headerclass .src-components-all__headersection {
     padding: 20px 20px; }
     .src-components-all__headerclass .src-components-all__headersection a {
-      cursor: pointer; }
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      margin: 0 10px; }
 
 .src-components-all__page {
   display: flex;
@@ -61,6 +64,27 @@
         border: solid 1px #a3a3a3; }
       .src-components-all__page .src-components-all__todosection .src-components-all__todoGroup .src-components-all__todoelement button:hover {
         background-color: #142cb0; }
+    .src-components-all__page .src-components-all__todosection .src-components-all__dashGroup {
+      display: flex; }
+      .src-components-all__page .src-components-all__todosection .src-components-all__dashGroup a {
+        text-decoration: none;
+        color: black; }
+      .src-components-all__page .src-components-all__todosection .src-components-all__dashGroup .src-components-all__dashelement {
+        font-family: arial;
+        margin: 2px;
+        padding: 15px;
+        width: 70px;
+        border: solid 0.5px lightgrey;
+        box-shadow: 1px 1px 3px lightgrey;
+        background-color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column; }
+        .src-components-all__page .src-components-all__todosection .src-components-all__dashGroup .src-components-all__dashelement img {
+          height: 50px; }
+        .src-components-all__page .src-components-all__todosection .src-components-all__dashGroup .src-components-all__dashelement h4 {
+          font-size: 18px;
+          margin-top: 10px; }
     .src-components-all__page .src-components-all__todosection .src-components-all__todologin b {
       color: #0059ff;
       margin: 10px 0;
@@ -83,6 +107,78 @@
       cursor: pointer;
       border: solid 1px #a3a3a3; }
     .src-components-all__page .src-components-all__todosection .src-components-all__todologin button:hover {
+      background-color: #142cb0; }
+  .src-components-all__page .src-components-all__notesection {
+    display: flex;
+    margin-top: 20px;
+    padding: 50px;
+    width: 70%;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column; }
+    .src-components-all__page .src-components-all__notesection h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #3f51b5; }
+    .src-components-all__page .src-components-all__notesection .src-components-all__noteGroup {
+      display: flex;
+      width: 100%;
+      justify-content: center; }
+      .src-components-all__page .src-components-all__notesection .src-components-all__noteGroup .src-components-all__noteList .src-components-all__noteelement:hover {
+        background-color: #e0e0e0;
+        cursor: pointer; }
+      .src-components-all__page .src-components-all__notesection .src-components-all__noteGroup .src-components-all__noteelement {
+        font-family: arial;
+        margin: 2px;
+        flex: 1;
+        padding: 20px;
+        border: solid 0.5px lightgrey;
+        box-shadow: 1px 1px 3px lightgrey;
+        background-color: white;
+        align-items: center;
+        flex-direction: column;
+        display: flex; }
+        .src-components-all__page .src-components-all__notesection .src-components-all__noteGroup .src-components-all__noteelement textarea {
+          margin: 5px 0;
+          padding: 10px;
+          width: 90%;
+          height: 130px;
+          border-radius: 3px;
+          border: solid 1px #b5b5b5; }
+        .src-components-all__page .src-components-all__notesection .src-components-all__noteGroup .src-components-all__noteelement button {
+          margin: 5px 0;
+          padding: 10px;
+          width: 90%;
+          border-radius: 3px;
+          background: #3f51b5;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+          border: solid 1px #a3a3a3; }
+        .src-components-all__page .src-components-all__notesection .src-components-all__noteGroup .src-components-all__noteelement button:hover {
+          background-color: #142cb0; }
+    .src-components-all__page .src-components-all__notesection .src-components-all__notelogin b {
+      color: #0059ff;
+      margin: 10px 0;
+      font-size: 13px;
+      display: block; }
+    .src-components-all__page .src-components-all__notesection .src-components-all__notelogin input {
+      margin: 5px 0;
+      padding: 10px;
+      width: 100%;
+      border-radius: 3px;
+      border: solid 1px #b5b5b5; }
+    .src-components-all__page .src-components-all__notesection .src-components-all__notelogin button {
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 3px;
+      background: #3f51b5;
+      color: white;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      border: solid 1px #a3a3a3; }
+    .src-components-all__page .src-components-all__notesection .src-components-all__notelogin button:hover {
       background-color: #142cb0; }
 
 .src-components-all__todoelement span {

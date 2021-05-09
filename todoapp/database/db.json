@@ -1,4 +1,38 @@
 {
+  "features": [
+    {
+      "id": "todos",
+      "title": "Todos",
+      "icon": "icon_todo.png"
+    },
+    {
+      "id": "notes",
+      "title": "Notes",
+      "icon": "icon_notebook.png"
+    }
+  ],
+  "notes": [
+    {
+      "id": 111,
+      "user": 1,
+      "note": "hey this is test note"
+    },
+    {
+      "id": 1121,
+      "user": 1,
+      "note": "hey thi 77s is test note"
+    },
+    {
+      "id": 1311,
+      "user": 1,
+      "note": "hey this 3 is test note"
+    },
+    {
+      "id": 1620591325224,
+      "note": "This is new note test",
+      "user": 1
+    }
+  ],
   "todos": [
     {
       "id": 111,
@@ -23,6 +57,24 @@
       "todo": "dfsdf",
       "status": 1,
       "user": 1
+    },
+    {
+      "id": 1619795423241,
+      "todo": "hello",
+      "status": true,
+      "user": 1
+    },
+    {
+      "id": 1619795551221,
+      "todo": "bfchgch",
+      "status": false,
+      "user": 1619795534163
+    },
+    {
+      "id": 1619795558059,
+      "todo": "fcgcjhjv ",
+      "status": true,
+      "user": 1619795534163
     }
   ],
   "users": [
@@ -30,6 +82,16 @@
       "id": 1,
       "username": "sonukedia",
       "password": "sonukedia"
+    },
+    {
+      "id": 1619795443989,
+      "username": "abc",
+      "password": "abc"
+    },
+    {
+      "id": 1619795534163,
+      "username": "rajak",
+      "password": "qazwsx"
     }
   ]
 }

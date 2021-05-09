@@ -1,10 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import {
-  fetchTodos,
-  loggedUser,
-  userLogin,
-  userRegister,
-} from "../modal/todos";
+import { loggedUser, userLogin, userRegister } from "../modal/dashboard";
 import styles from "./all.scss";
 
 function Login(props) {

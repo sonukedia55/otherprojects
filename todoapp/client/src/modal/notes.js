@@ -1,10 +1,10 @@
-export const fetchTodos = async (user) => {
-  const response = await fetch("/api/todos?user="+user);
+export const fetchNotes = async (user) => {
+  const response = await fetch("/api/notes?user="+user);
   const responsejson = await response.json();
   return responsejson.data;
 };
 
-export const saveTodos = async (val) => {
+export const saveNotes = async (val) => {
   const opt = {
     method: "POST",
     headers: {
@@ -13,21 +13,21 @@ export const saveTodos = async (val) => {
     body: JSON.stringify(val),
   };
   console.log(opt)
-  const response = await fetch("/api/todos",opt);
+  const response = await fetch("/api/notes",opt);
   const responsejson = await response.json();
   return responsejson;
 };
 
-export const updateTodo = async (id,status) => {
+export const updateNote = async (id,note) => {
   const opt = {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({status:status}),
+    body: JSON.stringify({note:note}),
   };
   console.log(opt)
-  const response = await fetch("/api/todos/"+id,opt);
+  const response = await fetch("/api/notes/"+id,opt);
   const responsejson = await response.json();
   return responsejson;
 };

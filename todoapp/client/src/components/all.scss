@@ -12,6 +12,9 @@
     padding: 20px 20px;
     a{
       cursor: pointer;
+      text-decoration: none;
+      color: white;
+      margin: 0 10px;
     }
   }
 }
@@ -74,7 +77,123 @@
         }
       }
     }
+    .dashGroup {
+      display: flex;
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      .dashelement {
+        font-family: arial;
+        margin: 2px;
+        padding: 15px;
+        width: 70px;
+        border: solid 0.5px lightgrey;
+        box-shadow: 1px 1px 3px lightgrey;
+        background-color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        img{
+          height: 50px;
+        }
+        h4{
+          font-size: 18px;
+          margin-top: 10px;
+        }
+      }
+    }
     .todologin {
+      b {
+        color: rgb(0, 89, 255);
+        margin: 10px 0;
+        font-size: 13px;
+        display: block;
+      }
+      input {
+        margin: 5px 0;
+        padding: 10px;
+        width: 100%;
+        border-radius: 3px;
+        border: solid 1px #b5b5b5;
+      }
+      button {
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 3px;
+        background: #3f51b5;
+        color: white;
+        width: 100%;
+        font-weight: bold;
+        cursor: pointer;
+        border: solid 1px #a3a3a3;
+      }
+      button:hover {
+        background-color: #142cb0;
+      }
+    }
+  }
+
+  .notesection {
+    display: flex;
+    margin-top: 20px;
+    padding: 50px;
+    width: 70%;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+
+    h2 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #3f51b5;
+    }
+    .noteGroup {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      .noteList{
+        .noteelement:hover{
+          background-color: rgb(224, 224, 224);
+          cursor: pointer;
+        }
+      }
+      .noteelement {
+        font-family: arial;
+        margin: 2px;
+        flex:1;
+        padding: 20px;
+        border: solid 0.5px lightgrey;
+        box-shadow: 1px 1px 3px lightgrey;
+        background-color: white;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        textarea {
+          margin: 5px 0;
+          padding: 10px;
+          width: 90%;
+          height: 130px;
+          border-radius: 3px;
+          border: solid 1px #b5b5b5;
+        }
+        button {
+          margin: 5px 0;
+          padding: 10px;
+          width: 90%;
+          border-radius: 3px;
+          background: #3f51b5;
+          color: white;
+          font-weight: bold;
+          cursor: pointer;
+          border: solid 1px #a3a3a3;
+        }
+        button:hover {
+          background-color: #142cb0;
+        }
+      }
+    }
+    .notelogin {
       b {
         color: rgb(0, 89, 255);
         margin: 10px 0;
